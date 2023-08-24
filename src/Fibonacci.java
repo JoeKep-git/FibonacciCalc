@@ -4,6 +4,7 @@ public class Fibonacci
 {
     public static void main(String[] args)
     {
+        //BigInteger as the fibonacci numbers get very large
         BigInteger n = BigInteger.valueOf(30);
         for (int i = 0; i < n.intValueExact(); i++)
         {
@@ -11,6 +12,7 @@ public class Fibonacci
         }
     }
 
+    //Recursive method to calculate fibonacci number
     public static BigInteger fibonacci(int n)
     {
         if (n == 0 || n == 1)
