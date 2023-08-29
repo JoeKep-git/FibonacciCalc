@@ -32,6 +32,7 @@ public class BetterFibonacciCal
             fibonacciArray[n] = storingValue;
             System.out.print(storingValue + ", ");
             return storingValue;
+
         }
     }
 }
